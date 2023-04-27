@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(0deg, rgb(217, 163, 253) 0%, rgb(49, 7, 163) 100%);
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+h1+form {
+    background-color: rgba(255, 255, 255, 0.555);
+    border-radius: 20px;
+    width:fit-content;
+}
+
+#h2 {
+    margin: 40px 40px 0 40px;
+    text-align: center;
+}
+
+h3 {
+    background-color: rgb(49, 7, 163);
+    padding: 5px 0;
+    border-radius: 5px;
+    color: white;
+} 
+
+#centro {
+    padding: 10px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#centro>div {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#centro img {
+    background-color: rgba(49, 7, 163, 0.349);
+    padding: 2px;
+    border-radius: 10px 0 0 10px;
+}
+
+#centro1 {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 10px;
+}
+
+#centro2 {
+    padding: 40px;
+    display: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 10px;
+}
+
+#centro1 img, #centro2 img {
+    height: 90px;
+}
+
+#centro1>div, #centro2>div {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+}
+
+input[type="password"], input[type="email"] {
+    height: 36px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    padding-left: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    background-color: rgba(49, 7, 163, 0.737);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 80px;
+    height: 25px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+#sacar {
+    display: block;
+}
