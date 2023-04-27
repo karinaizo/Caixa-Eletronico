@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Eletrônico</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../img/nota.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1><b>Saque</b></h1>
+        <form action="" method="" name="" onsubmit="return sacar(event)">
+            <div id="centro">
+                <div><h2>Valor do saque: <input type="number" name="" id="saque" min="0" required> reais</h2></div>
+            </div>
+            <div id="centro2">
+                <div>
+                    <img src="../img/2reais.jpg" alt="2 reais"> X 
+                    <input type="number" name="" id="2-1" disabled>
+                </div>
+                <div>
+                    <img src="../img/5reais.jpg" alt="5 reais"> X 
+                    <input type="number" name="" id="5-1" disabled>
+                </div>
+                <div>
+                    <img src="../img/10reais.jpg" alt="10 reais"> X 
+                    <input type="number" name="" id="10-1" disabled>
+                </div>
+                <div>
+                    <img src="../img/20reais.jpg" alt="20 reais"> X 
+                    <input type="number" name="" id="20-1" disabled>
+                </div>
+                <div>
+                    <img src="../img/50reais.jpg" alt="50 reais"> X 
+                    <input type="number" name="" id="50-1" disabled>
+                </div>
+                <div>
+                    <img src="../img/100reais.jpg" alt="100 reais"> X 
+                    <input type="number" name="" id="100-1" disabled>
+                </div>
+                <div></div>
+                <div class="resto"></div>
+                <div></div>
+            </div>
+            <div>
+                <input type="submit" value="Sacar">
+            </div>
+        </form>
+    </div>
+    <script src="../atm.js"></script>
+</body>
+</html>
